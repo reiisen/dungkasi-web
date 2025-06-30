@@ -34,8 +34,7 @@ const lokasi = defineCollection({
   loader: glob({ base: './src/content/lokasi', pattern: '**/*.{md,mdx}' }),
   // Type-check frontmatter using a schema
   schema: ({ image }) => z.object({
-    title: z.string(),
-    description: z.string(),
+    name: z.string(),
     // Transform string to Date object
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
@@ -54,6 +53,7 @@ const sejarah = defineCollection({
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     heroImage: image().optional(),
+    videoLink: z.string(),
   }),
 });
 
