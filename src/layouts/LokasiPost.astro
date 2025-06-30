@@ -8,7 +8,8 @@ import { Image } from "astro:assets";
 
 type Props = CollectionEntry<"lokasi">["data"];
 
-const { name, pubDate, updatedDate, heroImage } = Astro.props;
+const { name, pubDate, updatedDate, heroImage, mapImage, address } =
+  Astro.props;
 ---
 
 <html lang="en">
@@ -82,9 +83,11 @@ const { name, pubDate, updatedDate, heroImage } = Astro.props;
             <hr />
           </div>
           <slot />
+          <br />
+          <h2>{address}</h2>
         </div>
       </article>
+      <Footer />
     </main>
-    <Footer />
   </body>
 </html>

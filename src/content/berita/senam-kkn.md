@@ -1,11 +1,9 @@
 ---
 title: 'Pelaksanaan Jumat Bersih Seluruh RT Padukuhan Dungkasi'
 description: 'Inilah kegiatan rutin yang menunjukkan semangat kebersamaan warga Padukuhan Dungkasi.'
-pubDate: 'Jun 25 2022'
+pubDate: 'Jun 25 2025'
 heroImage: '../../assets/kk-min.jpg'
 ---
-
-WOW THIS IS A BLOG POST
 
 Pada tanggal 8 Juli 2022, seluruh Rukun Tetangga (RT) di Padukuhan Dungkasi serentak melaksanakan **Jumat Bersih**. Kegiatan rutin ini merupakan wujud nyata dari **semangat gotong royong dan kepedulian warga** terhadap kebersihan dan kenyamanan lingkungan sekitar.
 

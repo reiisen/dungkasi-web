@@ -1,7 +1,7 @@
 ---
 title: 'Penerjunan KKN USD di Balai Desa Ngipak'
 description: 'Mahasiswa Universitas Sanata Dharma memulai kegiatan Kuliah Kerja Nyata di Desa Ngipak, siap berkontribusi untuk masyarakat.'
-pubDate: 'Jun 23 2022'
+pubDate: 'Jun 23 2025'
 heroImage: '../../assets/penerjunan.jpg'
 ---
 

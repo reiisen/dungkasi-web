@@ -39,6 +39,8 @@ const lokasi = defineCollection({
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     heroImage: image().optional(),
+    address: z.string(),
+    mapImage: image()
   }),
 });
 
