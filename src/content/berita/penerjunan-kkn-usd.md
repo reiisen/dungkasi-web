@@ -7,7 +7,7 @@ heroImage: '../../assets/penerjunan.jpg'
 
 **Penerjunan KKN USD di Balai Desa Ngipak**
 
-Pada tanggal 23 Juni 2022, suasana Balai Desa Ngipak, Klaten, Jawa Tengah, tampak ramai dan antusias menyambut kedatangan rombongan mahasiswa Kuliah Kerja Nyata (KKN) dari Universitas Sanata Dharma (USD) Yogyakarta. Acara penerjunan ini menandai dimulainya kegiatan pengabdian masyarakat yang akan dilakukan oleh para mahasiswa di desa tersebut.
+Pada tanggal 23 Juni 2022, suasana Balai Desa Ngipak, tampak ramai dan antusias menyambut kedatangan rombongan mahasiswa Kuliah Kerja Nyata (KKN) dari Universitas Sanata Dharma (USD) Yogyakarta. Acara penerjunan ini menandai dimulainya kegiatan pengabdian masyarakat yang akan dilakukan oleh para mahasiswa di desa tersebut.
 
 Mahasiswa KKN USD akan tinggal dan berinteraksi langsung dengan masyarakat Desa Ngipak selama beberapa waktu ke depan. Mereka akan menerapkan ilmu dan pengetahuan yang telah diperoleh di bangku kuliah untuk membantu mengatasi berbagai permasalahan serta mengembangkan potensi yang ada di desa. Program-program yang akan dijalankan diharapkan dapat memberikan dampak positif dan berkelanjutan bagi kesejahteraan masyarakat Ngipak.
 
