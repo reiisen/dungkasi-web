@@ -1,0 +1,16 @@
+---
+interface Props {
+  link: string;
+}
+
+const { link } = Astro.props;
+---
+
+<div class="iframe-container">
+  <iframe
+    src={link}
+    style="border:0;"
+    allowfullscreen="false"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>

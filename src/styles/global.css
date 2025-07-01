@@ -159,3 +159,29 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+.iframe-container {
+  /* For centering the iframe */
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center (if container has a defined height) */
+  /* Or if you prefer margin auto for block elements */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+
+  /* For responsive sizing of the iframe within the container */
+  position: relative; /* Needed for absolute positioning of iframe */
+  width: 100%; /* Take full width of its parent */
+  padding-bottom: 75%; /* This creates a 4:3 aspect ratio (450/600 = 0.75 or 75%) */
+  /* Adjust padding-bottom based on your desired aspect ratio (height / width * 100%) */
+  height: 0; /* Important to collapse the container's height */
+  overflow: hidden; /* Hide anything that goes outside */
+}
+
+.iframe-container iframe {
+  position: absolute; /* Position the iframe absolutely within the container */
+  top: 0;
+  left: 0;
+  width: 100%; /* Make the iframe fill the container's width */
+  height: 100%; /* Make the iframe fill the container's height */
+}
