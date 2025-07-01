@@ -36,8 +36,6 @@ const lokasi = defineCollection({
   schema: ({ image }) => z.object({
     name: z.string(),
     // Transform string to Date object
-    pubDate: z.coerce.date(),
-    updatedDate: z.coerce.date().optional(),
     heroImage: image().optional(),
     gmap: z.string(),
   }),

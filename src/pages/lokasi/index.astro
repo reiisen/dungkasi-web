@@ -4,12 +4,9 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
-import FormattedDate from "../../components/FormattedDate.astro";
 import { Image } from "astro:assets";
 
-const posts = (await getCollection("lokasi")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+const posts = await getCollection("lokasi");
 ---
 
 <!doctype html>
@@ -104,9 +101,6 @@ const posts = (await getCollection("lokasi")).sort(
                     />
                   )}
                   <h4 class="title">{post.data.name}</h4>
-                  <p class="date">
-                    <FormattedDate date={post.data.pubDate} />
-                  </p>
                 </a>
               </li>
             ))
